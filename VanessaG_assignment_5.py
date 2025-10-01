@@ -22,5 +22,5 @@ for num in num_sequence:
     print(f" {num}",end="")
 print()
 print(f"Steps: {step_count}")
-print()
+print() 
 
