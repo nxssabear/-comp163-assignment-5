@@ -39,5 +39,21 @@ else:
 
 print()
 
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table:")
+
+print("      ",end="")
+for i in range(1,11):
+    print(f"{i:4}",end="")
+print()
+for row in range(1,11):
+    print(f"{row:2}",end="")
+    for i in range(1,11):
+         print(f"{i * row:4}",end="")
+    print()
+
+
+
+
 
 
