@@ -39,6 +39,7 @@ else:
 
 print()
 
+#Challenge 3: Multiplication Table Grid
 print("=== Challenge 3: Multiplication Table ===")
 print("Multiplication Table:")
 
