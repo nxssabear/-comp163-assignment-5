@@ -31,7 +31,7 @@ n1 = int(input("Enter a number: "))
 print(f"Testing divisors from 2 to {n1 -1}...")
 
 for i in range(2,n1-1):
-    if n1 % i == 0:
+    if n1 % i == 0: #not prime
         print(f"{n1} is not prime (divisible by {i})")
         break
     
@@ -44,7 +44,7 @@ print()
 print("=== Challenge 3: Multiplication Table ===")
 print("Multiplication Table:")
 
-print("      ",end="")
+print("      ",end="") #spacing for top left corner
 for i in range(1,11):
     print(f"{i:4}",end="")
 print()
