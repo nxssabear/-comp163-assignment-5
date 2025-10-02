@@ -1,3 +1,4 @@
+#No AI was used for code. 
 #Challenge 1: Number Sequence Generator
 print("=== Challenge 1: Collatz Conjecture ===")
 current_number = int(input("Enter starting number: "))
