@@ -46,11 +46,11 @@ print("=== Challenge 3: Multiplication Table ===")
 print("Multiplication Table:")
 
 print("      ",end="") #spacing for top left corner
-for i in range(1,11):
+for i in range(1,11):  #header row
     print(f"{i:4}",end="")
 print()
 for row in range(1,11):
-    print(f"{row:2}",end="")
+    print(f"{row:2}",end="") #header column
     for i in range(1,11):
          print(f"{i * row:4}",end="")
     print()
